@@ -1,0 +1,44 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+  height: 90%;
+
+  background-color: #cebbc9;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sub label {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 0;
+}
+
+.sub input {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0;
+  border: none;
+}
+
+.Form button {
+  width: 100%;
+
+  background-color: #772d8b;
+  padding: 15px;
+  border: none;
+  margin-top: 10px;
+}
+
+.Form button:hover {
+  background-color: #50185f;
+}
